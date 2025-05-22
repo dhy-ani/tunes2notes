@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.h5
+.env
+.vscode/
+*.mp3
+*.wav
+sheet_output/
+temp/
+midi_output/
