@@ -1,0 +1,15 @@
+# Ignore virtual environments
+.magenta-env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore output and temp files
+temp/
+midi_output/
+sheet_output/
+
+# Ignore system files
+.DS_Store
+.vscode/
