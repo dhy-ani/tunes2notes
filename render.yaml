@@ -1,0 +1,12 @@
+# render.yaml
+services:
+  - type: web
+    name: tunes2notes
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
